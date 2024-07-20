@@ -1,0 +1,14 @@
+local first = game.Workspace.First
+local second =  game.Workspace.Second
+local third = game.Workspace.Third
+
+function ChangeColor(part)
+	part.BrickColor = BrickColor.Random()
+end
+
+wait(2)
+ChangeColor(first)
+wait(2)
+ChangeColor(second)
+wait(2)
+ChangeColor(third)
